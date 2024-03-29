@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="spreadsheet" href="style.css">
+    <link href="style.css" rel="stylesheet"/>
     <title>Etch A Sketch</title>
 </head>
 <body>
-    <div id="paint-area"></div>
-    <script src="script.js"></script>
+    <label for="area-value">Enter Area </label><input id="area-value" type="number" min="1" max="100">
+    <button id="input-btn">Draw</button>
+    <div id="paint-area-container" class="box-container"></div>
+    <script src="./script.js"></script>
 </body>
 </html>

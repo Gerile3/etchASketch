@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    --box-width:960px;
+    --box-height:960px;
+}
+
+.box-container{
+    display:flex;
+    max-width: 960px;
+    max-height: 960px;
+    flex-wrap: wrap;
+}
+
+.box{
+    border: 1px solid black;
+    width: var(--box-width);
+    height: var(--box-height);
+    min-width: 96px;
+    min-height: 96px;
+    margin:0;
+    flex-shrink: 0;
+}
+
+.box:hover{
+    background-color: red;
+}
