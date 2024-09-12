@@ -2,15 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet"/>
-    <title>Etch A Sketch</title>
+    <meta name="description" content="Etch-A-Sketch game that you can paint the screen with RGB colors">
+    <link rel="icon" href="./img/paint-roller-solid.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
 </head>
 <body>
-    <label for="area-value">Enter Area </label><input id="area-value" type="number" min="1" max="100">
-    <button id="input-btn">Draw</button>
-    <div id="paint-area-container" class="box-container"></div>
+    <section class="head">
+        <h1 class="title">Welcome to Etch-A-Sketch!</h1>
+        <button class="input">Config</button>
+    </section>
+
+    <section class="main">
+        <div class="box-container">
+
+        </div>
+    </section>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Gerile3. All rights reserved.</p>
+    </footer>
+
     <script src="./script.js"></script>
 </body>
 </html>
